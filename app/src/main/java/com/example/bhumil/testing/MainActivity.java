@@ -37,7 +37,7 @@ String movietitle,moviedesc,movieposterurl;
                 .appendPath("3")
                 .appendPath("discover")
                 .appendPath("movie")
-                .appendQueryParameter("api_key","6d21049fee87d85b62a03fe0865e8f1a")
+                .appendQueryParameter("api_key","<api_key>")
                 .appendQueryParameter("sort_by","popularity.desc")
                 //.appendQueryParameter("page","5")
                 .build().toString();
